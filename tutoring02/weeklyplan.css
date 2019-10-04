@@ -1,0 +1,71 @@
+body {
+  font-family: "Arial","Georgia",sans-serif;
+  color: #8ED4E6;
+  background-color: #4051B5;
+  background-image: url("img/tutor1.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+}
+h1, h2 {
+  color: #91D8C2;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  font-size: 1.8em;
+}
+dl {
+  font-size: 75%;
+  color: #FDFD1B;
+}
+dt {
+  font-weight: bold;
+}
+p::first-letter {
+  font-size: 150%;
+  font-weight: bold;
+}
+ins {
+  text-decoration: none;
+  color: #10FF10;
+}
+ins:hover {
+  font-weight: bold;
+}
+em {
+  text-shadow: -2px -2px #ACACAC;
+}
+p > em {
+  text-shadow: initial;
+}
+del {
+  color: #FF3636;
+}
+table, td, th {
+  border: 3px solid;
+}
+table {
+  border-collapse: collapse;
+}
+tr:last-child {
+  background-color: white;
+}
+caption {
+  text-align: right;
+}
+ol {
+  list-style: lower-greek;
+}
+img {
+  width: 300px;
+  height: 300px;
+}
+a > img {
+  width: initial;
+  height: initial;
+}
+abbr {
+  text-decoration: none;
+}
