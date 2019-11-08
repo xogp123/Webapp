@@ -26,13 +26,13 @@
 
 
 		<?php }
-		elseif (!preg_match('/^[a-z][a-z]$/',$_POST["name"])) { ?>
+		elseif (!preg_match('/^[A-za-z]{2,10}\s[A-za-z]{2,10}$/',$_POST["name"])) { ?>
 			<h1>Sorry</h1>
 			<p>You didn't fill out name completely. <a href="http://localhost/gradestore/gradestore.html">Try again?</a></p>
 
 
 		<?php }
-		elseif (!preg_match('/^[4|5][0-9]{15}$/',$_POST["cred_num"])) { ?>
+		elseif (!preg_match('/^(4|5)[0-9]{15}$/',$_POST["cred_num"])) { ?>
 			<h1>Sorry</h1>
 			<p>You didn't fill out credit number completely. <a href="http://localhost/gradestore/gradestore.html">Try again?</a></p>
 
